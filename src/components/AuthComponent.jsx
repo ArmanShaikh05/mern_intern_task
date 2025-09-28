@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-import AuthBg from "../assets/authBg.png";
 import LoginForm from "../forms/LoginForm";
 import SignUpForm from "../forms/SignUpForm";
 
@@ -47,7 +46,7 @@ const AuthComponent = ({ onClose }) => {
       <div className="w-full grid grid-cols-2 py-6 px-8">
         {authMode === "login" ? <LoginForm /> : <SignUpForm />}
         <div className="w-full px-2">
-          <img src={AuthBg} alt="authbg" />
+          <img src={"/authbg.png"} alt="authbg" />
           <p className="text-xs px-2 text-gray-500">
             By signing up, you agree to our Terms & conditions, Privacy policy
           </p>
