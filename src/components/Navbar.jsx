@@ -6,7 +6,7 @@ import Modal from "../modals/Modal";
 import AuthComponent from "./AuthComponent";
 
 const Navbar = () => {
-  const [openAuthModal, setOpenAuthModal] = useState(true);
+  const [openAuthModal, setOpenAuthModal] = useState(false);
 
   return (
     <header className="w-full bg-white border-b border-gray-400 hidden md:block sticky top-0 left-0 z-50">
